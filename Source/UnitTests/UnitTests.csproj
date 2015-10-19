@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResGenTrackerSdkPath>%programfiles(x86)%\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64</ResGenTrackerSdkPath>
+    <TrackFileAccess>false</TrackFileAccess>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB5096D8-7F3A-45BD-AC21-00CE27B5F762}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZetaHtmlCompressor.UnitTests</RootNamespace>
+    <AssemblyName>ZetaHtmlCompressor.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\References\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlCompressorTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSuite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.csproj">
+      <Project>{60D9C70A-9FA6-4DAE-B4A6-E76F3C53F579}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Html01.html" />
+    <Content Include="Resources\Html02.html" />
+    <Content Include="Resources\Html02a.html" />
+    <None Include="Resources\testRemoveIntertagSpacesResult.xml" />
+    <None Include="Resources\testRemoveIntertagSpaces.xml" />
+    <None Include="Resources\testRemoveCommentsResult.xml" />
+    <None Include="Resources\testRemoveComments.xml" />
+    <None Include="Resources\testEnabledResult.xml" />
+    <None Include="Resources\testEnabled.xml" />
+    <None Include="Resources\testCompressResult.xml" />
+    <None Include="Resources\testCompress.xml" />
+    <None Include="Resources\testSurroundingSpacesResult.html" />
+    <None Include="Resources\testSurroundingSpaces.html" />
+    <None Include="Resources\testSimpleDoctypeResult.html" />
+    <None Include="Resources\testSimpleDoctype.html" />
+    <None Include="Resources\testSimpleBooleanAttributesResult.html" />
+    <None Include="Resources\testSimpleBooleanAttributes.html" />
+    <None Include="Resources\testRemoveStyleAttributesResult.html" />
+    <None Include="Resources\testRemoveStyleAttributes.html" />
+    <None Include="Resources\testRemoveSpacesInsideTagsResult.html" />
+    <None Include="Resources\testRemoveSpacesInsideTags.html" />
+    <None Include="Resources\testRemoveScriptAttributesResult.html" />
+    <None Include="Resources\testRemoveScriptAttributes.html" />
+    <None Include="Resources\testRemoveQuotesResult.html" />
+    <None Include="Resources\testRemoveQuotes.html" />
+    <None Include="Resources\testRemoveMultiSpacesResult.html" />
+    <None Include="Resources\testRemoveMultiSpaces.html" />
+    <None Include="Resources\testRemoveLinkAttributesResult.html" />
+    <None Include="Resources\testRemoveLinkAttributes.html" />
+    <None Include="Resources\testRemoveJavaScriptProtocolResult.html" />
+    <None Include="Resources\testRemoveJavaScriptProtocol.html" />
+    <None Include="Resources\testRemoveIntertagSpacesResult.html" />
+    <None Include="Resources\testRemoveIntertagSpaces.html" />
+    <None Include="Resources\testRemoveInputAttributesResult.html" />
+    <None Include="Resources\testRemoveInputAttributes.html" />
+    <None Include="Resources\testRemoveHttpsProtocolResult.html" />
+    <None Include="Resources\testRemoveHttpsProtocol.html" />
+    <None Include="Resources\testRemoveHttpProtocolResult.html" />
+    <None Include="Resources\testRemoveHttpProtocol.html" />
+    <None Include="Resources\testRemoveFormAttributesResult.html" />
+    <None Include="Resources\testRemoveFormAttributes.html" />
+    <None Include="Resources\testRemoveCommentsResult.html" />
+    <None Include="Resources\testRemoveComments.html" />
+    <None Include="Resources\testPreservePatternsResult.html" />
+    <None Include="Resources\testPreservePatterns.html" />
+    <None Include="Resources\testPreserveLineBreaksResult.html" />
+    <None Include="Resources\testPreserveLineBreaks.html" />
+    <None Include="Resources\testEnabledResult.html" />
+    <None Include="Resources\testEnabled.html" />
+    <None Include="Resources\testCompressResult.html" />
+    <None Include="Resources\testCompressJavaScriptYuiResult.html" />
+    <None Include="Resources\testCompressJavaScriptClosureResult.html" />
+    <None Include="Resources\testCompressJavaScript.html" />
+    <None Include="Resources\testCompressCssResult.html" />
+    <None Include="Resources\testCompressCss.html" />
+    <None Include="Resources\testCompress.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
