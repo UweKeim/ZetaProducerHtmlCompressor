@@ -17,4 +17,4 @@ Simply include the [NuGet package](https://www.nuget.org/packages/ZetaProducerHt
 ## History
 
   * *2015-10-18* - First release to GitHub.
-  * *2012-12-03* - First release.
+  * *2012-12-03* - First release. (Being used in our [CMS Zeta Producer](http://www.zeta-producer.com)).
