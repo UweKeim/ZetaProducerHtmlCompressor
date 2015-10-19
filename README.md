@@ -8,7 +8,7 @@ A .NET port of Google’s htmlcompressor library to minify HTML source code.
 
 ## Introduction
 
-This article describes a port of [Google's Java htmlcompressor library](https://code.google.com/p/htmlcompressor/) to remove extra whitespaces, comments and other unneeded characters without breaking the content structure.
+This project is a port of [Google's Java htmlcompressor library](https://code.google.com/p/htmlcompressor/) to remove extra whitespaces, comments and other unneeded characters without breaking the content structure.
 
 ## Usage
 
