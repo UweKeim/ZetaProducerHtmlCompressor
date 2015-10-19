@@ -1,4 +1,4 @@
-﻿namespace ZetaHtmlCompressor.Internal
+﻿namespace ZetaProducerHtmlCompressor.Internal
 {
 	using System;
 	using System.Collections.Generic;

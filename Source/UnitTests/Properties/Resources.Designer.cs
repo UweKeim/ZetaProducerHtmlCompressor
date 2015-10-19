@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ZetaHtmlCompressor.UnitTests.Properties {
+namespace ZetaProducerHtmlCompressor.UnitTests.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ZetaHtmlCompressor.UnitTests.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZetaHtmlCompressor.UnitTests.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZetaProducerHtmlCompressor.UnitTests.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

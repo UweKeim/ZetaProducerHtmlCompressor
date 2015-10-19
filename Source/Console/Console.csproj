@@ -8,7 +8,7 @@
     <ProjectGuid>{A2BFE560-D46E-4146-A5A6-AE319AACE623}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaHtmlCompressor.Console</RootNamespace>
+    <RootNamespace>ZetaProducerHtmlCompressor.Console</RootNamespace>
     <AssemblyName>hc</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -21,6 +21,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>compress2.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -36,6 +39,9 @@
       <Project>{60D9C70A-9FA6-4DAE-B4A6-E76F3C53F579}</Project>
       <Name>Library</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="compress2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

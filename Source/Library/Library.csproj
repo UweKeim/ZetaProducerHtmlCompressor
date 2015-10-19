@@ -10,8 +10,8 @@
     <ProjectGuid>{60D9C70A-9FA6-4DAE-B4A6-E76F3C53F579}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaHtmlCompressor</RootNamespace>
-    <AssemblyName>ZetaHtmlCompressor</AssemblyName>
+    <RootNamespace>ZetaProducerHtmlCompressor</RootNamespace>
+    <AssemblyName>ZetaProducerHtmlCompressor</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

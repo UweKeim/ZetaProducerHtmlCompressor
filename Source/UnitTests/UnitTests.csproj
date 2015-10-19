@@ -10,8 +10,8 @@
     <ProjectGuid>{FB5096D8-7F3A-45BD-AC21-00CE27B5F762}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaHtmlCompressor.UnitTests</RootNamespace>
-    <AssemblyName>ZetaHtmlCompressor.UnitTests</AssemblyName>
+    <RootNamespace>ZetaProducerHtmlCompressor.UnitTests</RootNamespace>
+    <AssemblyName>ZetaProducerHtmlCompressor.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

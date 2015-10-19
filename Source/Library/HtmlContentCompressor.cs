@@ -1,4 +1,4 @@
-﻿namespace ZetaHtmlCompressor
+﻿namespace ZetaProducerHtmlCompressor
 {
 	using System.Collections.Generic;
 	using System.Text.RegularExpressions;

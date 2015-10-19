@@ -1,4 +1,4 @@
-﻿namespace ZetaHtmlCompressor.UnitTests
+﻿namespace ZetaProducerHtmlCompressor.UnitTests
 {
 	using System;
 	using System.Collections.Generic;

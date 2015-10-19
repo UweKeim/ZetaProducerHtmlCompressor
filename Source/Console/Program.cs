@@ -1,4 +1,4 @@
-﻿namespace ZetaHtmlCompressor.Console
+﻿namespace ZetaProducerHtmlCompressor.Console
 {
 	using System;
 	using System.IO;
