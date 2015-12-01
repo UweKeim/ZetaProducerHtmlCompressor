@@ -180,6 +180,9 @@
 		private static readonly Regex cdataPattern = new Regex("\\s*<!\\[CDATA\\[(.*?)\\]\\]>\\s*",
 															   RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
+        	private static readonly Regex scriptCdataPattern = new Regex("/\\*\\s*<!\\[CDATA\\[\\*/(.*?)/\\*\\]\\]>\\s*\\*/",
+                                                               RegexOptions.Singleline | RegexOptions.IgnoreCase);
+
 		private static readonly Regex doctypePattern = new Regex("<!DOCTYPE[^>]*>",
 																 RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
@@ -1566,17 +1569,27 @@
 			}
 
 			//detect CDATA wrapper
+			bool scriptCdataWrapper = false;
 			bool cdataWrapper = false;
-			var matcher = cdataPattern.Match(source);
+			var matcher = scriptCdataPattern.Match(source);
 			if (matcher.Success)
+			{
+				scriptCdataWrapper = true;
+				source = matcher.Groups[1].Value;
+			}
+			else if (cdataPattern.Match(source).Success)
 			{
 				cdataWrapper = true;
 				source = matcher.Groups[1].Value;
 			}
-
+			
 			string result = javaScriptCompressor.compress(source);
-
-			if (cdataWrapper)
+			
+			if (scriptCdataWrapper)
+			{
+				result = string.Format("/*<![CDATA[*/{0}/*]]>*/", result);
+			}
+			else if (cdataWrapper)
 			{
 				result = string.Format("<![CDATA[{0}]]>", result);
 			}
