@@ -8,6 +8,10 @@ Deploy/
 Source/TestConsole/Bin/
 Source/TestConsole2/Bin/
 Source/UnitTests/Bin/
+Source/build-all.cmd
+Source/do-build.log
+Source/do-build-all.cs
+Source/do-build-all.log
 
 #################
 ## Eclipse
