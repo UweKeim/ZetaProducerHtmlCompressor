@@ -2,7 +2,7 @@
 
 A .NET port of Google’s htmlcompressor library to minify HTML source code.
 
-[![Build state](https://travis-ci.org/UweKeim/ZetaHtmlCompressor.svg?branch=master)](https://travis-ci.org/UweKeim/ZetaProducerHtmlCompressor "Travis CI build status")
+[![Build state](https://travis-ci.org/UweKeim/ZetaProducerHtmlCompressor.svg?branch=master)](https://travis-ci.org/UweKeim/ZetaProducerHtmlCompressor "Travis CI build status")
 
 ## Introduction
 
