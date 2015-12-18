@@ -1,4 +1,4 @@
-# Zeta Html Compressor
+# Zeta Producer Html Compressor
 
 A .NET port of Google’s HtmlCompressor library to minify HTML source code.
 
