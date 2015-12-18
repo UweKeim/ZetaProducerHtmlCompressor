@@ -12,7 +12,7 @@ This project is a port of [Google's Java htmlcompressor library](https://code.go
 
 Simply include the [NuGet package](https://www.nuget.org/packages/ZetaProducerHtmlCompressor/) into your project.
 
-See [Minify HTML with inline css/javascript for MVC C# as a filter/attribute] (https://gist.github.com/herman1vdb/a026e84330b481448b17) as example for implementation (includes css and javascript minification using System.Web.Optimization bundling library)
+See [Minify HTML with inline CSS/JavaScript for MVC C# as a filter/attribute] (https://gist.github.com/herman1vdb/a026e84330b481448b17) as an example implementation (includes CSS and JavaScript minification using `System.Web.Optimization` bundling library).
 
 ## History
 
