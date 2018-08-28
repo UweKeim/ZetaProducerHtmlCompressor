@@ -708,7 +708,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, lineBreakBlocks[i]);
-						sb.Append(match.Result(lineBreakBlocks[i]));
+						sb.Append(lineBreakBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -734,7 +734,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(taBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(taBlocks[i])));
+						sb.Append(taBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -760,7 +760,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(styleBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(styleBlocks[i])));
+						sb.Append(styleBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -786,7 +786,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(scriptBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(scriptBlocks[i])));
+						sb.Append(scriptBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -812,7 +812,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(preBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(preBlocks[i])));
+						sb.Append(preBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -838,7 +838,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(eventBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(eventBlocks[i])));
+						sb.Append(eventBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -864,7 +864,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(condCommentBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(condCommentBlocks[i])));
+						sb.Append(condCommentBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -890,7 +890,7 @@
 					{
 						sb.Append(html.Substring(lastValue, match.Index - lastValue));
 						//matcher.appendReplacement(sb, Regex.Escape(skipBlocks[i]));
-						sb.Append(match.Result(/*Regex.Escape*/(skipBlocks[i])));
+						sb.Append(skipBlocks[i]);
 
 						lastValue = match.Index + match.Length;
 					}
@@ -919,7 +919,7 @@
 						{
 							sb.Append(html.Substring(lastValue, match.Index - lastValue));
 							//matcher.appendReplacement(sb, Regex.Escape(userBlocks[p][i]));
-							sb.Append(match.Result(/*Regex.Escape*/(userBlocks[p][i])));
+							sb.Append(userBlocks[p][i]);
 
 							lastValue = match.Index + match.Length;
 						}
