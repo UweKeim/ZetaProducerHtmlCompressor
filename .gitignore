@@ -5,6 +5,7 @@
 .svn/
 Deploy/
 
+Source/packages/
 Source/TestConsole/Bin/
 Source/TestConsole2/Bin/
 Source/UnitTests/Bin/
@@ -61,6 +62,8 @@ local.properties
 x64/
 build/
 [Oo]bj/
+
+.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
