@@ -150,19 +150,19 @@
         }
 
         /*[Test]
-		public void testCompressJavaScriptYui()
-		{
-			var source = Resources.testCompressJavaScript;
-			var result = Resources.testCompressJavaScriptYuiResult;
+        public void testCompressJavaScriptYui()
+        {
+            var source = Resources.testCompressJavaScript;
+            var result = Resources.testCompressJavaScriptYuiResult;
 
-			var compressor = new HtmlCompressor();
-			compressor.setCompressJavaScript(true);
-			compressor.setRemoveIntertagSpaces(true);
+            var compressor = new HtmlCompressor();
+            compressor.setCompressJavaScript(true);
+            compressor.setRemoveIntertagSpaces(true);
 
-						var compress = compressor.compress(source);
-			Assert.AreEqual(result, compress);
+                        var compress = compressor.compress(source);
+            Assert.AreEqual(result, compress);
 
-		}*/
+        }*/
 
         //[Test]
         //public void testCompressJavaScriptClosure()
@@ -181,19 +181,19 @@
         //}
 
         /*[Test]
-		public void testCompressCss()
-		{
-			var source = Resources.testCompressCss;
-			var result = Resources.testCompressCssResult;
+        public void testCompressCss()
+        {
+            var source = Resources.testCompressCss;
+            var result = Resources.testCompressCssResult;
 
-			var compressor = new HtmlCompressor();
-			compressor.setCompressCss(true);
-			compressor.setRemoveIntertagSpaces(true);
+            var compressor = new HtmlCompressor();
+            compressor.setCompressCss(true);
+            compressor.setRemoveIntertagSpaces(true);
 
-						var compress = compressor.compress(source);
-			Assert.AreEqual(result, compress);
+                        var compress = compressor.compress(source);
+            Assert.AreEqual(result, compress);
 
-		}*/
+        }*/
 
         [Test]
         public void testCompress()
@@ -316,7 +316,6 @@
 
             var compress = compressor.compress(source);
             Assert.AreEqual(result, compress);
-
         }
 
         [Test]
@@ -330,7 +329,6 @@
 
             var compress = compressor.compress(source);
             Assert.AreEqual(result, compress);
-
         }
 
         [Test]
@@ -344,7 +342,6 @@
 
             var compress = compressor.compress(source);
             Assert.AreEqual(result, compress);
-
         }
 
         [Test]
@@ -359,7 +356,6 @@
 
             var compress = compressor.compress(source);
             Assert.AreEqual(result, compress);
-
         }
     }
 }

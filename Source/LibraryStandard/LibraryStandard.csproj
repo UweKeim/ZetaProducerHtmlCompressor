@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ZetaProducerHtmlCompressor</AssemblyName>
+    <RootNamespace>ZetaProducerHtmlCompressor</RootNamespace>
+    <PackageId>ZetaProducerHtmlCompressorStandard</PackageId>
+    <Version>1.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/UweKeim/ZetaProducerHtmlCompressor</PackageProjectUrl>
+    <Product>Zeta Producer Html Compressor</Product>
+    <Description>A .NET Standard port of Google’s htmlcompressor library to minify HTML source code. This is the release of the original porter.</Description>
+    <PackageTags>html, compression</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageIconUrl>https://i.imgur.com/N4dd0Ac.png</PackageIconUrl>
+    <Authors>Uwe Keim</Authors>
+    <Company>Zeta Software GmbH</Company>
+    <Configurations>Release</Configurations>
+  </PropertyGroup>
+
+</Project>
