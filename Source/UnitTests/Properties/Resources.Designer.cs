@@ -93,7 +93,7 @@ namespace ZetaProducerHtmlCompressor.UnitTests.Properties {
         ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
         ///    &lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
         ///    &lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
-        ///    &lt;meta name=&quot;generator&quot; content=&quot;Zeta Producer 15.2.1.0, ZP12B, 14.04.2015 16:04:54&quot; /&gt;
+        ///    &lt;meta name=&quot;generator&quot; content=&quot;Zeta Producer 15.2.2.0, ZP12B, 14.04.2015 16:04:54&quot; /&gt;
         ///    &lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot; /&gt;
         ///
         ///
@@ -118,7 +118,7 @@ namespace ZetaProducerHtmlCompressor.UnitTests.Properties {
         ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
         ///    &lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
         ///    &lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
-        ///    &lt;meta name=&quot;generator&quot; content=&quot;Zeta Producer 15.2.1.0, ZP12B, 14.04.2015 17:05:00&quot; /&gt;
+        ///    &lt;meta name=&quot;generator&quot; content=&quot;Zeta Producer 15.2.2.0, ZP12B, 14.04.2015 17:05:00&quot; /&gt;
         ///    &lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot; /&gt;
         ///
         ///

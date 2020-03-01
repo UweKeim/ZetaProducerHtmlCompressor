@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Zeta Software GmbH")]
 [assembly: AssemblyProduct("Zeta Producer Html Compressor")]
-[assembly: AssemblyCopyright("© 1999-2019 Zeta Software GmbH")]
+[assembly: AssemblyCopyright("© 1999-2020 Zeta Software GmbH")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("15.2.1.0")]
-[assembly: AssemblyFileVersion("15.2.1.0")]
+[assembly: AssemblyVersion("15.2.2.0")]
+[assembly: AssemblyFileVersion("15.2.2.0")]
